@@ -1,0 +1,46 @@
+/* colors 
+#FFFFFF - primary bg (white)
+#F5F5F5 - secondary bg
+#18A0FB - accent
+#000000 - title h1 h2 h3
+rgba(0, 0, 0, 0.8) - main text body p
+*/
+
+/* fonts 
+Montserrat 400 500 700
+*/
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+:root {
+    --primary-bg-white: #FFFFFF;
+    --secondary-bg:#F5F5F5;
+    --accent:#18A0FB;
+    --title-h1-h2-h3:#000000;
+    --primary-text-body-p:rgba(0, 0, 0, 0.8);
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    /* outline: 3px solid tomato; */
+}
+
+body {
+    background-color: var(--primary-bg-white);
+    color: var(--primary-text-body-p);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+/* utilites */
+
