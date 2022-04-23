@@ -44,3 +44,86 @@ body {
 
 /* utilites */
 
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+/* logo */
+
+.logo {
+    color: var(--title-h1-h2-h3);
+}
+
+.logo:hover {
+    color: var(--accent);
+}
+
+/* site nav */
+.site-nav .link {
+    color: var(--accent);
+}
+
+.site-nav .link:hover, .site-nav .link:focus {
+    color: var(--title-h1-h2-h3);
+}
+
+/* hero */
+
+.hero .title {
+    color: var(--title-h1-h2-h3);
+}
+
+
+/* section common */
+.section-title {
+    color: var(--title-h1-h2-h3);
+}
+
+/*section features*/
+
+.features .title {
+    color: var(--title-h1-h2-h3);
+}
+
+/* .link {
+    color: var(--accent);
+}  */
+
+/* section examples */
+.work .title {
+    color: var(--title-h1-h2-h3);
+}
+
+/* button */
+
+.button {
+    color: var(--title-h1-h2-h3);
+    background-color: var(--primary-bg-white);
+}
+
+.button.primary {
+    color: var(--primary-bg-white);
+    background-color: var(--accent);
+ }
+
+.button.secondary {
+    color: var(--accent);
+    background-color: var(--primary-bg-white);
+}
+
+
+
+
