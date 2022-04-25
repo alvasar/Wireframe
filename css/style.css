@@ -40,6 +40,8 @@ body {
     color: var(--primary-text-body-p);
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
+    letter-spacing: -0.015em;
+    line-height: 1.67;
 }
 
 /* utilites */
@@ -56,7 +58,7 @@ body {
     height: auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p {
     margin: 0;
     padding: 0;
 }
@@ -65,6 +67,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .logo {
     color: var(--title-h1-h2-h3);
+
+    font-family: Comfortaa, cursive;
+    font-size: 28px;
+    line-height: 1.14;
+    text-decoration: none;
 }
 
 .logo:hover {
@@ -74,36 +81,15 @@ h1, h2, h3, h4, h5, h6 {
 /* site nav */
 .site-nav .link {
     color: var(--accent);
+
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.2;
+    text-decoration: none;
 }
 
-.site-nav .link:hover, .site-nav .link:focus {
-    color: var(--title-h1-h2-h3);
-}
-
-/* hero */
-
-.hero .title {
-    color: var(--title-h1-h2-h3);
-}
-
-
-/* section common */
-.section-title {
-    color: var(--title-h1-h2-h3);
-}
-
-/*section features*/
-
-.features .title {
-    color: var(--title-h1-h2-h3);
-}
-
-/* .link {
-    color: var(--accent);
-}  */
-
-/* section examples */
-.work .title {
+.site-nav .link:hover, 
+.site-nav .link:focus {
     color: var(--title-h1-h2-h3);
 }
 
@@ -112,16 +98,67 @@ h1, h2, h3, h4, h5, h6 {
 .button {
     color: var(--title-h1-h2-h3);
     background-color: var(--primary-bg-white);
+
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.2;
+    text-decoration: none;
 }
 
 .button.primary {
     color: var(--primary-bg-white);
     background-color: var(--accent);
- }
+}
 
 .button.secondary {
     color: var(--accent);
     background-color: var(--primary-bg-white);
+}
+
+/* hero */
+
+.hero-title {
+    color: var(--title-h1-h2-h3);
+
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 1.43;
+    text-align: center;
+}
+
+/* section common */
+.section-title {
+    color: var(--title-h1-h2-h3);
+
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1.5;
+    text-align: center;
+}
+ .section-description {
+    font-size: 36px;
+    line-height: 1.39;
+}
+
+/*section features and examples*/
+
+.features-list .title, .work-list .title {
+    color: var(--title-h1-h2-h3);
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+
+
+/* .link {
+    color: var(--accent);
+}  */
+
+/* section examples */
+.work .title {
+    color: var(--title-h1-h2-h3);
 }
 
 
